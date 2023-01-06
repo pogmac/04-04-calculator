@@ -39,7 +39,10 @@ if __name__ == "__main__": #część pobierania argumentów do działania
         action_name ="Mnożę";max_arg = int(input("Ile chcesz dodać liczb?"))
     elif action == 4:
         action_name ="Dzielę";max_arg =2 
-    
+    else:
+        logging.debug("Zły wybór działania. Wpisz liczbę 1,2,3 lub 4")
+        exit()
+        
     arguments = []; #sprawdzam czy argumenty są liczbami (int lub float)
     for i in range (max_arg): 
         argument = (input(f"Podaj składnik {i+1}."))
