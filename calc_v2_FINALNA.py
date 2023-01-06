@@ -1,7 +1,9 @@
-#Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:
-# Korzystając z biblioteki logging, informujemy użytkownika, jakie działanie wykonamy i jakie będą jego argumenty (np. Dodaję 1 i 3).
+"""
+    # To jest program kalkulator który wykonuje cztery działania arytmetyczne
+    # Po uruchomieniu należy wybrać rodzaj działania 
+    # W przypadku dodawania i mnożenia należy wybrać ile liczb ma być procesowanych
+"""
 
-import sys
 import logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(message)s')
 
