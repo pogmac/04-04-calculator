@@ -60,8 +60,7 @@ if __name__ == "__main__":
                 arguments.append(argument)
             except ValueError:
                 print("Wprowadziłeś niepoprawną zmienną, spróbuj jeszcze raz wprowadzić liczbę")
-
-
+                
     if max_arg == 2:
         a = float(arguments[0])
         b = float(arguments[1])
